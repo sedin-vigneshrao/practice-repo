@@ -26,3 +26,5 @@ docker-compose.override.yml # If you use this for local overrides you don't want
 *.swp
 *~
 .DS_Store
+# Rails encrypted credentials master key
+/config/master.key
